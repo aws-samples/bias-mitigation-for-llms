@@ -8,7 +8,7 @@ The work is divided in 3 labs:
 3. **Model fine-tuning**: in this lab you will use the data generated with CDA to fine-tune an LLM and mitigate the original bias present on it.
 
 ## How to use
-These notebooks are intended to be executed on a SageMaker Studio Domain Notebook. Each notebook comes with its pre-configured image and instance type. In order to run those notebooks outside SageMaker Studio, you will need to configure our python installation with the required packages that include, but are not limited to: `PyTorch`, `pandas`, `numpy`.
+These notebooks are intended to be executed on a SageMaker Studio Domain Notebook or SageMaker Notebook. Each notebook comes with its pre-configured image and instance type. In order to run those notebooks outside SageMaker Studio, you will need to configure our python installation with the required packages that include, but are not limited to: `PyTorch`, `pandas`, `numpy`.
 These notebooks also assume that you have at least 1 instance of `ml.g5.2xlarge` for SageMaker Endpoints and one instance of `ml.g4dn.2xlarge` for SageMaker Studio notebooks (or bigger) available on your account.
 
 ## Contacts
