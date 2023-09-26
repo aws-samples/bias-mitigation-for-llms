@@ -4,8 +4,8 @@ In this workshop you will learn how to detect and mitigate bias in LLMs.
 
 The work is divided in 3 labs:
 1. **Bias Detection**: in this lab you will learn how to use `toxicity`, `regard` and `honest`, metrics (available on HuggingFace) to evaluate your LLMs. 
-2. **Counterfactual Data Augmentation (CDA)**: in this lab, you will learn how to use the CDA technique to create unbiased data that will be used to fine-tune your LLMs.
-3. **Model fine-tuning**: in this lab you will use the data generated with CDA to fine-tune an LLM and mitigate the original bias present on it.
+2. **Counterfactual Data Augmentation (CDA)**: in this lab, you will learn how to use the CDA technique to create data that is more representative of a diverse population, that will be used to fine-tune your LLMs.
+3. **Model fine-tuning**: in this lab you will use the data generated in the previous lab to fine-tune an LLM and mitigate representational differences present in model outputs regarding diverse populations.
 
 ## How to use
 These notebooks are intended to be executed on a SageMaker Studio Domain Notebook or SageMaker Notebook. Each notebook comes with its pre-configured image and instance type. In order to run those notebooks outside SageMaker Studio, you will need to configure our python installation with the required packages that include, but are not limited to: `PyTorch`, `pandas`, `numpy`.
